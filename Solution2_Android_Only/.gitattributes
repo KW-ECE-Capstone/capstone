@@ -1,2 +1,1 @@
-Big_File_Test filter=lfs diff=lfs merge=lfs -text
-lfs_test filter=lfs diff=lfs merge=lfs -text
+test_big filter=lfs diff=lfs merge=lfs -text
