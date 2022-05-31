@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mediapipe:facemesh:0.8.10.1-alpha-1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/55e2a057f0867b148765d7c89c5e804b/transformed/jetified-facemesh-0.8.10.1-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/55e2a057f0867b148765d7c89c5e804b/transformed/jetified-facemesh-0.8.10.1-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/55e2a057f0867b148765d7c89c5e804b/transformed/jetified-facemesh-0.8.10.1-alpha-1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

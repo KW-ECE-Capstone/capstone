@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/mipmap_ic_launcher_foreground.png.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/mipmap/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/layout_item_utube.xml.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/layout/item_utube.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/menu_menu.xml.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/layout_youtube_search.xml.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/layout/youtube_search.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/mipmap_ic_launcher_round.png.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/mipmap/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/merged_res/debug/mipmap_ic_launcher.png.flat",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/mipmap/ic_launcher.png"
+    }
+]
