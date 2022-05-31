@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.mediapipe.apps.hands"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:5:3-7:39
+8        android:minSdkVersion="27"
+8-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:6:7-33
+9        android:targetSdkVersion="31" />
+9-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:7:7-36
+10
+11    <!-- For loading images from gallery -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:10:3-78
+12-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:10:20-75
+13    <!-- For using the camera -->
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:12:3-63
+14-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:12:20-60
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:13:3-58
+16-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:13:17-55
+17    <!-- For logging solution events -->
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:15:3-65
+18-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:15:20-62
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:16:3-77
+19-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:16:20-74
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:17:3-69
+20-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:17:20-66
+21    <uses-permission android:name="android.Manifest.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:18:3-87
+21-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:18:20-84
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:19:3-79
+22-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:19:20-76
+23
+24    <queries>
+24-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:20:3-24:13
+25        <intent>
+25-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:21:5-23:14
+26            <action android:name="com.google.android.youtube.api.service.START" />
+26-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:22:7-77
+26-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:22:15-74
+27        </intent>
+28    </queries>
+29    <queries>
+29-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:20:3-24:13
+30        <intent>
+30-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:26:5-28:14
+31            <action android:name="android.speech.RecognitionService" />
+31-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:27:7-66
+31-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:27:15-63
+32        </intent>
+33    </queries>
+34
+35    <application
+35-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:30:3-52:17
+36        android:allowBackup="true"
+36-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:31:7-33
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.7.0] /Users/happyeon/.gradle/caches/transforms-3/b984cfb454e5241437e257017d41b6c8/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:32:7-41
+41        android:label="MediaPipe Hands"
+41-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:33:7-38
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:34:7-52
+43        android:supportsRtl="true"
+43-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:35:7-33
+44        android:testOnly="true"
+45        android:theme="@style/Theme.MyApplication" >
+45-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:36:7-49
+46        <activity
+46-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:37:5-47:16
+47            android:name="com.google.mediapipe.examples.hands.SearchYoutube"
+47-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:37:15-44
+48            android:configChanges="orientation|keyboardHidden"
+48-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:39:9-59
+49            android:exported="true"
+49-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:40:9-32
+50            android:screenOrientation="portrait" >
+50-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:38:9-45
+51            <intent-filter>
+51-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:42:7-46:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:43:9-61
+52-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:43:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:45:9-69
+54-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:45:19-66
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:48:5-51:11
+58            android:name="com.google.mediapipe.examples.hands.MainActivity"
+58-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:48:15-43
+59            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+59-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:49:9-102
+60            android:exported="true" />
+60-->/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/AndroidManifest.xml:50:9-32
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+64            android:authorities="com.google.mediapipe.apps.hands.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/happyeon/.gradle/caches/transforms-3/98f893534e3099d7a5e5d94d9d58bdb5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/happyeon/.gradle/caches/transforms-3/6131bf4b15d7452bf1a90764e7519f20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/happyeon/.gradle/caches/transforms-3/6131bf4b15d7452bf1a90764e7519f20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/happyeon/.gradle/caches/transforms-3/6131bf4b15d7452bf1a90764e7519f20/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+72        </provider>
+73
+74        <service
+74-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/3781f805d5950fd3fd1c898320c4e159/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+75            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+75-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/3781f805d5950fd3fd1c898320c4e159/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+76            android:exported="false" >
+76-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/3781f805d5950fd3fd1c898320c4e159/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+77            <meta-data
+77-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/3781f805d5950fd3fd1c898320c4e159/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+78                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+78-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/3781f805d5950fd3fd1c898320c4e159/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+79                android:value="cct" />
+79-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/3781f805d5950fd3fd1c898320c4e159/transformed/jetified-transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+80        </service>
+81        <service
+81-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+82            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+82-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+83            android:exported="false"
+83-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+84            android:permission="android.permission.BIND_JOB_SERVICE" >
+84-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+85        </service>
+86
+87        <receiver
+87-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+88            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+88-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+89            android:exported="false" />
+89-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/happyeon/.gradle/caches/transforms-3/11db9958174f1bcec99c36c31a1242a9/transformed/jetified-transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+90    </application>
+91
+92</manifest>

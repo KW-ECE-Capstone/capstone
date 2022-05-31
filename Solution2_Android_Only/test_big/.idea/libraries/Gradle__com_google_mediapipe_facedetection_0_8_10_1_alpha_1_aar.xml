@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mediapipe:facedetection:0.8.10.1-alpha-1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3720f2702c471ff3ab6247d2131fd0aa/transformed/jetified-facedetection-0.8.10.1-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3720f2702c471ff3ab6247d2131fd0aa/transformed/jetified-facedetection-0.8.10.1-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3720f2702c471ff3ab6247d2131fd0aa/transformed/jetified-facedetection-0.8.10.1-alpha-1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

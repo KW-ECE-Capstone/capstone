@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_utube.xml",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/layout/item_utube.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/youtube_search.xml",
+        "source": "/Users/happyeon/Downloads/Solution2_Android_Only/hands/src/main/res/layout/youtube_search.xml"
+    }
+]

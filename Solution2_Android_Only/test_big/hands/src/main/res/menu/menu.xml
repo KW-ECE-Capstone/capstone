@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Big_Screen"
+        android:title="가로 모드"/>
+    <item
+        android:id="@+id/Small_Screen"
+        android:title="세로 모드"/>
+    <item
+        android:title="모션 인식">
+        <menu>
+            <item
+                android:id="@+id/Btn_Camera"
+                android:title="카메라 나타내기"/>
+            <item
+                android:id="@+id/Btn_CameraOff"
+                android:title="카메라 숨기기"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Btn_Voice"
+        android:title="음성 인식"/>
+
+</menu>

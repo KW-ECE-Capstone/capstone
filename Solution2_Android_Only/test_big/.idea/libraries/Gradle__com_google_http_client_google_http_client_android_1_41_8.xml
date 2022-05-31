@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.http-client:google-http-client-android:1.41.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.41.8/dda84679dc0dede4dd81cc4b30c9f83ce44c2fa/google-http-client-android-1.41.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.41.8/da03bb6cb4affd6881d3e712c5247c8f46603ec0/google-http-client-android-1.41.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.41.8/4094623bb52798aa93a059bf5f09c3797ce7200/google-http-client-android-1.41.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

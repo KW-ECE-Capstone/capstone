@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.26@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e26927c7b360334948a65d6ad2cebdf8/transformed/jetified-chromecast-sender-0.26/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e26927c7b360334948a65d6ad2cebdf8/transformed/jetified-chromecast-sender-0.26/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e26927c7b360334948a65d6ad2cebdf8/transformed/jetified-chromecast-sender-0.26/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pierfrancescosoffritti.androidyoutubeplayer/chromecast-sender/0.26/7af20fefe063302bfba2620800c1cf7f1ac2410e/chromecast-sender-0.26-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pierfrancescosoffritti.androidyoutubeplayer/chromecast-sender/0.26/e0e3f7decd182e7dba1ff9f6b231cb7f06a12d96/chromecast-sender-0.26-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
