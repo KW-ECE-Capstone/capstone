@@ -33,9 +33,13 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.MappedByteBuffer;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -46,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         UNKNOWN,
         CAMERA
     }
+
+    private String[] actions = {"rewind", "advance", "stop_and_play", "ok"};
 
     private Hands hands;
     private InputSource inputSource = InputSource.UNKNOWN;
@@ -60,6 +66,9 @@ public class MainActivity extends AppCompatActivity {
     //double[] inputs = {0.473972,0.422807,0.549512,0.486547,0.591408,0.569618,0.632841,0.621523,0.687649,0.670258,0.472084,0.654611,0.540619,0.752105,0.617385,0.780825,0.673016,0.784885,0.466915,0.627833,0.529033,0.756932,0.622783,0.7987,0.696129,0.820382,0.489161,0.589503,0.565776,0.696462,0.658659,0.737037,0.72946,0.763009,0.529973,0.549646,0.622391,0.586593,0.684666,0.588849,0.734648,0.590322};
     ByteBuffer inputs;
     float[][] outputs = new float[1][4];
+    private List<String> seq = new ArrayList<>(30);
+    private String Outputresult;
+    //private String[] seq = new String[30];
 
 
     @Override
@@ -210,7 +219,46 @@ public class MainActivity extends AppCompatActivity {
                         Arrays.deepToString(outputs)
                 )
         );
+        int idx_max = argMax(outputs);
+        if(outputs[0][idx_max] > 0.80){
+            seq.add(actions[idx_max]);
+        }
+        else{
+            seq.add("NONE");
+        }
+        Set<String> set = new HashSet<String>();
+        for(int k=0; k<seq.size(); k++){
+            set.add(seq.get(k));
+            if(set.size() > 1){
+                seq.clear();
+            }
+            if(seq.size() > 30){
+                Iterator<String> setIter = set.iterator();
+                Outputresult = setIter.next();
+                Log.i(
+                        TAG,
+                        String.format(
+                                "OutputResult %s",
+                                Outputresult
+                        )
+                );
+                seq.clear();
+                Outputresult = "";
+            }
+        }
         //PrintResult.setText(Float.toString(outputs[0][0]));
+    }
+
+    private int argMax(float[][] outputs){
+        float max=0;
+        int res = 0;
+        for(int i=0; i<actions.length; i++){
+            if(max < outputs[0][i]) {
+                max = outputs[0][i];
+                res = i;
+            }
+        }
+        return res;
     }
 
     private void stopCurrentPipeline() {
